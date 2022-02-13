@@ -45,6 +45,8 @@
     <!-- Лототип-ссылки и кликабельное меню с якорями на странице -->
     <header>
       <div class="headerContainer">
+        <nav>
+          <!-- Лого как ссылка относится к "навигации" -->
         <a href="#"
           ><img class="logo" src="./image/Logo.svg" alt="Company Logo"
         /></a>
@@ -53,6 +55,7 @@
         <a class="navigation navigation_disabledBtn" href="#features"
           >Features</a
         >
+      </nav>
       </div>
     </header>
 
@@ -61,10 +64,10 @@
 storage here. -->
       <div class="aboutContainer">
         <section class="aboutText">
-          <!-- h1 - основая тематика сайта. Должно улучшить СЕО -->
+          <!-- h1 - основая тематика сайта. Изменения должны улучшить СЕО -->
           <h1 class="aboutSectionTitle">
-            Save your data <br />
-            storage here.
+           <strong> Save your data <br />
+            storage here. </strong>
           </h1>
           <p class="aboutSectionText">
             Data Warehouse is a data storage area that has been tested for
@@ -109,8 +112,8 @@ storage bank -->
       </div>
       <!-- Четыре однотипных контейнера-блока в Третьем блоке с общей информацией. Learn more имеют затычки -->
 
-      <section class="casesContainer">
-        <div class="caseOne case">
+      <article class="casesContainer">
+        <section class="caseOne case">
           <div class="caseImages">
             <img src="./image/image1.png" alt="Search Data" />
           </div>
@@ -126,8 +129,8 @@ storage bank -->
               ><p>Learn more <span></span></p
             ></a>
           </div>
-        </div>
-        <div class="caseTwo case">
+        </section>
+        <section class="caseTwo case">
           <div class="caseImages">
             <!-- В alt продублированы названия блоков. Изображения по сути не несут никакой информации -->
             <img src="./image/image2.png" alt="24 Hours Access" />
@@ -142,8 +145,8 @@ storage bank -->
               ><p>Learn more <span></span></p
             ></a>
           </div>
-        </div>
-        <div class="caseThree case">
+        </section>
+        <section class="caseThree case">
           <div class="caseImages">
             <img src="./image/image3.png" alt="Print Out" />
           </div>
@@ -157,8 +160,8 @@ storage bank -->
               ><p>Learn more <span></span></p
             ></a>
           </div>
-        </div>
-        <div class="caseFour case">
+        </section>
+        <section class="caseFour case">
           <div class="caseImages">
             <img src="./image/image4.png" alt="Security Code" />
           </div>
@@ -173,8 +176,8 @@ storage bank -->
               ><p>Learn more <span></span></p
             ></a>
           </div>
-        </div>
-      </section>
+        </section>
+      </article>
 
       <!-- Четвертый блок \ будущий слайдер -->
       <section class="testimonials">
@@ -245,6 +248,7 @@ storage bank -->
 
     <!-- Пятый блок - подвал -->
     <footer>
+      <!-- Секция -->
       <section>
         <div class="warehouse" id="warehouse">
           <!-- Лого выполнено в качестве ссылки как и в шапке -->
